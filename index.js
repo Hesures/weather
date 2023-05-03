@@ -1,6 +1,6 @@
 const key = "202cd3452d077d590157f2076ca44649&lang=es";
 const grades = "&units=metric";
-const url = "http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=" + key + grades;
+const url = "https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=" + key + grades;
 
 
 const weatherContainer = document.querySelector("#weatherContainer");
